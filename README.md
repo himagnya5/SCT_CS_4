@@ -19,10 +19,15 @@ This project was created as part of **SCT_CS_4** task.
 
 
 KeyEventRecorder/
+
 │
+
 ├── app.py # Main program
+
 ├── logs/ # Stores key_events.csv
+
 ├── .gitignore # Excludes venv and unnecessary files
+
 └── README.md # Project documentation
 
 
@@ -36,21 +41,3 @@ KeyEventRecorder/
    cd SCT_CS_4
 
 
-(Optional) Create virtual environment:
-
-python -m venv .venv
-.venv\Scripts\activate   # For Windows PowerShell
-
-
-Run the program:
-
-python app.py
-
-
-Type inside the Tkinter window – every key you press will be saved to:
-
-logs/key_events.csv
-
----
-
-## 📂 Project Structure
